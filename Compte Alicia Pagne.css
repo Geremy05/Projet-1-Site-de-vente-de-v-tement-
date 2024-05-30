@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-image: url("https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/245565944_6520820774602508_7750222626693110380_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFiyqq0E6rh1k3TlYf9REDK4V3uK3fxhAXhXe4rd_GEBZsI_dtByjw_AOHjKtZYszkBCr7qkqJKleC-zLPNIA_f&_nc_ohc=Drc2I8V3O0sAX9Nxyfn&_nc_ht=scontent-cdg4-3.xx&oh=00_AfBZd3hng3F8UI0h3LJNFh-OJ2ECm7qML09kOdl2V15kNQ&oe=6600F08A");
 }
@@ -124,4 +125,132 @@ header .logo a span {
 
 .account-submit:hover {
     background-color: pink;
+=======
+body{
+    background-image: url("https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/245565944_6520820774602508_7750222626693110380_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFiyqq0E6rh1k3TlYf9REDK4V3uK3fxhAXhXe4rd_GEBZsI_dtByjw_AOHjKtZYszkBCr7qkqJKleC-zLPNIA_f&_nc_ohc=Drc2I8V3O0sAX9Nxyfn&_nc_ht=scontent-cdg4-3.xx&oh=00_AfBZd3hng3F8UI0h3LJNFh-OJ2ECm7qML09kOdl2V15kNQ&oe=6600F08A");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration:  0;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ccc;
+}
+
+header{
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    Z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 5%;
+}
+header .logo a {
+    font-size: 25px;
+    color: pink;
+}
+header .logo a span {
+    color: #fff;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu li {
+    margin: 0 15px;
+    list-style-type: none;
+    transition: 0.5s;
+}
+.menu li a {
+    color: #fff;
+    font-size: 18px;
+
+}
+.menu li:hover{
+    transform: translateY(-10px);
+}
+.fin-menu{
+    font-size: 18px;
+    color: pink;
+    bottom: 10px;
+    border: 2px solid pink;
+    padding: 5px 8px;
+    transition: 0.5s;
+}
+.fin-menu:hover{
+    height: 40px;
+    text-align: center;
+}
+/*Fin du code de la bande du haut*/
+
+/*Partie Contact*/
+
+/* Style pour le conteneur principal */
+.account-container {
+    width: 100%;
+    max-width: 850px;
+    margin: 200px auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(134, 131, 131);;
+}
+
+/* Style pour les titres */
+.account-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Style pour le formulaire */
+.account-form {
+    text-align: center;
+}
+
+/* Style pour les champs de formulaire */
+.account-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style pour le bouton de soumission */
+.account-submit {
+    background-color: pink;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.account-submit:hover {
+    background-color: pink;
+>>>>>>> f852e62eb397e8ea3741e60bdcd0d9e3083cf30f
 }
